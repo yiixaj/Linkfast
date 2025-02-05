@@ -1,0 +1,321 @@
+/* css/style.css */
+
+/* Estilos generales para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal del formulario */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Estilos para los campos del formulario */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Botón de envío */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}
+
+/* Texto inferior del formulario */
+p {
+    text-align: center;
+}
+
+p a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* css/style.css */
+
+/* Estilos generales para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header principal */
+header {
+    background-color: #5cb85c;
+    color: #ffffff;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.main-container {
+    max-width: 800px;
+    margin: 100px auto 20px auto; /* Se deja espacio para el header fijo */
+    padding: 0 15px;
+}
+
+/* Sección para publicar post */
+.new-post {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.new-post h2 {
+    margin-top: 0;
+    color: #333333;
+}
+
+.new-post textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.new-post button {
+    background-color: #5cb85c;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.new-post button:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos para cada post */
+.post {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.post .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post .post-header .username {
+    font-weight: bold;
+    color: #333;
+}
+
+.post .post-header .date {
+    color: #888;
+    font-size: 13px;
+}
+
+.post p {
+    line-height: 1.5;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Botones de interacción en los posts */
+.post .actions a {
+    text-decoration: none;
+    color: #5cb85c;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.post .actions a:hover {
+    text-decoration: underline;
+}
+
+/* Formulario de comentarios dentro del post */
+.post .comment-form {
+    margin-top: 15px;
+}
+
+.post .comment-form input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.post .comment-form button {
+    width: 80px;
+    padding: 8px;
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.post .comment-form button:hover {
+    background-color: #4cae4c;
+}
+
+/* Comentarios */
+.post .comments {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.post .comments .comment {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.post .comments .comment .comment-author {
+    font-weight: bold;
+    color: #333;
+}
+
+/* css/style.css */
+
+/* Ajustes generales */
+body {
+    background-color: #f0f2f5;
+  }
+  
+  /* Navbar: ajustar colores si lo deseas */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  /* Tarjetas (cards) */
+  .card {
+    border: none;
+    border-radius: 12px;
+  }
+  
+  .card-header {
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  /* Imagen de avatar: ejemplo de avatar redondeado */
+  img.rounded-circle {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  /* Ajustes para textarea y formularios */
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  /* Botones personalizados (opcional) */
+  .btn-outline-primary {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  
+  /* Responsive: asegúrate de que los elementos se adapten correctamente */
+  @media (max-width: 767.98px) {
+    .card-header, .card-footer {
+      text-align: center;
+    }
+  }
+  
+  /* css/style.css */
+
+/* Puedes personalizar colores, fuentes u otros detalles según tu identidad visual */
+body {
+    background-color: #f0f2f5;
+  }
+  
+  .card {
+    border-radius: 12px;
+  }
+  
+  .input-group-text {
+    background-color: #e9ecef;
+  }
+  
