@@ -132,15 +132,3 @@ Para reportar errores o solicitar características, utilizar la sección de Issu
 - Monitorear logs de errores
 ```
 
-He creado un README comprehensivo para tu proyecto LinkFast que cubre:
-
-- Descripción detallada
-- Características del proyecto
-- Tecnologías utilizadas
-- Requisitos del sistema
-- Instrucciones de instalación
-- Estructura del proyecto
-- Guía para contribuidores
-- Secciones de seguridad, pruebas y contacto
-
-¿Quieres que modifique o agregue algo más al README?
