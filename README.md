@@ -16,8 +16,6 @@ LinkFast es una plataforma de red social moderna desarrollada con PHP, diseñada
 ## 🛠 Tecnologías Utilizadas
 - PHP 7.4+
 - MySQL
-- HTML5
-- CSS3
 - JavaScript
 - AJAX
 
