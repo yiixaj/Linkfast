@@ -4,13 +4,11 @@
 LinkFast es una plataforma de red social moderna desarrollada con PHP, diseñada para conectar personas, compartir contenido y facilitar la comunicación digital.
 
 ## ✨ Características Principales
-- Registro y autenticación de usuarios
 - Creación y personalización de perfiles
 - Publicación de contenido multimedia
 - Sistema de amigos y seguimiento
 - Mensajería instantánea
-- Comentarios y reacciones
-- Muro de noticias personalizado
+- Comentarios
 - Notificaciones en tiempo real
 - Búsqueda de usuarios
 - Privacidad y configuración de cuenta
@@ -23,17 +21,12 @@ LinkFast es una plataforma de red social moderna desarrollada con PHP, diseñada
 - JavaScript
 - AJAX
 - Framework (opcional, especificar si se usa)
-- Bootstrap/Tailwind CSS (opcional)
 
 ## 📋 Requisitos del Sistema
 - Servidor web (Apache/Nginx)
 - PHP 7.4 o superior
 - MySQL 5.7 o superior
-- Extensiones PHP:
-  - PDO
-  - MySQLi
-  - GD
-  - Mbstring
+
 
 ## 🚀 Instalación
 
@@ -45,22 +38,9 @@ cd linkfast
 
 ### Configuración de Base de Datos
 1. Crear base de datos en MySQL
-2. Importar `database/schema.sql`
-3. Configurar credenciales en `config/database.php`
+2. Importar `sql_import/database.sql`
+3. Configurar credenciales en `include/db.php`
 
-### Configuración del Proyecto
-1. Copiar `config/config.example.php` a `config/config.php`
-2. Editar configuraciones de conexión
-3. Establecer permisos de carpetas
-```bash
-chmod -R 755 storage/
-chmod -R 755 uploads/
-```
-
-### Instalación de Dependencias
-```bash
-composer install
-```
 
 ## 🔐 Seguridad
 - Encriptación de contraseñas
@@ -69,28 +49,47 @@ composer install
 - Implementación de tokens CSRF
 - Configuraciones de seguridad en `.htaccess`
 
-## 🖥️ Estructura del Proyecto
-```
-linkfast/
+cambios en db.php mysqli
+
+http://localhost:8080/
+user: user
+psswd: password
+subir base de datos 
+Verificar que la API esté funcionando:
+
+Visita http://localhost:5000/ para ver la página principal
+Visita http://localhost:5000/anomalias para ver las anomalías detectadas
+Visita http://localhost:5000/estadisticas/Edificio A para ver las estadísticas de una ubicación específica
+
+proyecto-completo/
 │
-├── config/             # Archivos de configuración
-├── public/             # Archivos públicos
-├── src/                # Código fuente
-│   ├── Controllers/
-│   ├── Models/
-│   └── Views/
-├── storage/            # Almacenamiento de archivos
-├── uploads/            # Archivos subidos por usuarios
-├── tests/              # Pruebas unitarias
-└── vendor/             # Dependencias de Composer
-
-
-
-
-## 🔍 Consejos de Desarrollo
-- Mantener actualizado el framework y dependencias
-- Implementar caché para mejorar rendimiento
-- Realizar copias de seguridad periódicas
-- Monitorear logs de errores
-
-
+├── linkfast/                 # proyecto original de red social
+│   ├── api/
+    |── css/
+    |── images/
+    |── includes/
+    |── js/
+    |── templates/
+    |── uploads/
+    |── accept_request.php
+    |──chat.php
+    |──comment_process.php
+    |──follow.php
+    |──friend_request.php
+    |──friends.php
+    |──get_profile_pic.php
+    |──index.php
+    |──like_process.php
+    |──login_process.php
+    |──login.php
+    |──logout.php
+    |──post_process.php
+    |──profile.php
+    |──register_process.php
+    |──register.php
+    |──reject_request.php
+    |──remove_friend.php
+    |──search.php
+    |──send_request.php
+    
+    
