@@ -63,33 +63,31 @@ Visita http://localhost:5000/estadisticas/Edificio A para ver las estadísticas 
 
 proyecto-completo/
 │
-├── linkfast/                 # proyecto original de red social
-│   ├── api/
-|   |── css/
-    |── images/
-    |── includes/
-    |── js/
-    |── templates/
-    |── uploads/
-    |── accept_request.php
-    |──chat.php
-    |──comment_process.php
-    |──follow.php
-    |──friend_request.php
-    |──friends.php
-    |──get_profile_pic.php
-    |──index.php
-    |──like_process.php
-    |──login_process.php
-    |──login.php
-    |──logout.php
-    |──post_process.php
-    |──profile.php
-    |──register_process.php
-    |──register.php
-    |──reject_request.php
-    |──remove_friend.php
-    |──search.php
-    |──send_request.php
-    
+├── linkfast/            # proyecto original de red social
+│   ├── css/
+│   ├── images/
+│   ├── includes/
+│   ├── js/
+│   ├── templates/
+│   ├── uploads/
+│   ├── accept_request.php
+│   ├── chat.php
+│   ├── comment_process.php
+│   ├── follow.php
+│   ├── friend_request.php
+│   ├── friends.php
+│   ├── get_profile_pic.php
+│   ├── index.php
+│   ├── like_process.php
+│   ├── login_process.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── post_process.php
+│   ├── profile.php
+│   ├── register_process.php
+│   ├── register.php
+│   ├── reject_request.php
+│   ├── remove_friend.php
+│   ├── search.php
+│   └── send_request.php
     
