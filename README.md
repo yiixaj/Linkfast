@@ -65,7 +65,7 @@ proyecto-completo/
 │
 ├── linkfast/                 # proyecto original de red social
 │   ├── api/
-    |── css/
+|   |── css/
     |── images/
     |── includes/
     |── js/
