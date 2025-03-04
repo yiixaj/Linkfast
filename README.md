@@ -130,5 +130,5 @@ Para reportar errores o solicitar características, utilizar la sección de Issu
 - Implementar caché para mejorar rendimiento
 - Realizar copias de seguridad periódicas
 - Monitorear logs de errores
-```
+
 
