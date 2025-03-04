@@ -83,47 +83,9 @@ linkfast/
 ├── uploads/            # Archivos subidos por usuarios
 ├── tests/              # Pruebas unitarias
 └── vendor/             # Dependencias de Composer
-```
 
-## 🧪 Pruebas
-```bash
-# Ejecutar pruebas
-php vendor/bin/phpunit
-```
 
-## 🤝 Contribuciones
-1. Fork del repositorio
-2. Crear rama de características
-3. Commit de cambios
-4. Push a la rama
-5. Crear Pull Request
 
-## 📜 Licencia
-[Especificar Licencia, ej. MIT License]
-
-## 🙌 Créditos
-- [Tu Nombre]
-- Contribuidores
-- Librerías de código abierto utilizadas
-
-## 📞 Contacto
-- Email: [tu-email]
-- Sitio web: [tu-sitio-web]
-- LinkedIn: [tu-perfil]
-
-## 🆘 Soporte
-Para reportar errores o solicitar características, utilizar la sección de Issues en GitHub.
-```
-
-## 🌟 Capturas de Pantalla
-[Espacio para incluir capturas de pantalla de la aplicación]
-
-## 🚧 Roadmap
-- [ ] Implementar modo oscuro
-- [ ] Integraciones con APIs externas
-- [ ] Soporte para video llamadas
-- [ ] Mejoras de rendimiento
-```
 
 ## 🔍 Consejos de Desarrollo
 - Mantener actualizado el framework y dependencias
