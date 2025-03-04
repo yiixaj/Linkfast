@@ -1,4 +1,4 @@
-# LinkFast - Red Social
+# LinkFast - Red Social 🌐
 
 ## 🌐 Descripción del Proyecto
 LinkFast es una plataforma de red social moderna desarrollada con PHP, diseñada para conectar personas, compartir contenido y facilitar la comunicación digital.
@@ -20,13 +20,25 @@ LinkFast es una plataforma de red social moderna desarrollada con PHP, diseñada
 - CSS3
 - JavaScript
 - AJAX
-- Framework (opcional, especificar si se usa)
 
 ## 📋 Requisitos del Sistema
 - Servidor web (Apache/Nginx)
 - PHP 7.4 o superior
 - MySQL 5.7 o superior
 
+## 🗂️ Estructura del Proyecto
+```
+proyecto-completo/
+│
+└── linkfast/
+    ├── css/
+    ├── images/
+    ├── includes/
+    ├── js/
+    ├── templates/
+    ├── uploads/
+    └── Archivos PHP principales
+```
 
 ## 🚀 Instalación
 
@@ -39,8 +51,12 @@ cd linkfast
 ### Configuración de Base de Datos
 1. Crear base de datos en MySQL
 2. Importar `sql_import/database.sql`
-3. Configurar credenciales en `include/db.php`
+3. Configurar credenciales en `includes/db.php`
 
+### Configuración de Credenciales
+- Servidor: http://localhost:8080/
+- Usuario: user
+- Contraseña: password
 
 ## 🔐 Seguridad
 - Encriptación de contraseñas
@@ -49,45 +65,29 @@ cd linkfast
 - Implementación de tokens CSRF
 - Configuraciones de seguridad en `.htaccess`
 
-cambios en db.php mysqli
+## 🖥️ Archivos Principales
+- `index.php`: Página principal
+- `login.php`: Inicio de sesión
+- `register.php`: Registro de usuarios
+- `profile.php`: Perfil de usuario
+- `post_process.php`: Procesamiento de publicaciones
+- `chat.php`: Sistema de mensajería
+- `friend_request.php`: Gestión de solicitudes de amistad
 
-http://localhost:8080/
-user: user
-psswd: password
-subir base de datos 
-Verificar que la API esté funcionando:
+## 🛠️ Configuración Adicional
+Asegúrate de verificar y configurar los siguientes archivos:
+- `includes/db.php`: Configuración de conexión a base de datos
+- `.htaccess`: Configuraciones de seguridad y redirección
 
-Visita http://localhost:5000/ para ver la página principal
-Visita http://localhost:5000/anomalias para ver las anomalías detectadas
-Visita http://localhost:5000/estadisticas/Edificio A para ver las estadísticas de una ubicación específica
+## 🚧 Próximos Desarrollos
+- Mejora del sistema de mensajería
+- Implementación de modo oscuro
+- Optimización de rendimiento
 
-proyecto-completo/
-│
-├── linkfast/            # proyecto original de red social
-│   ├── css/
-│   ├── images/
-│   ├── includes/
-│   ├── js/
-│   ├── templates/
-│   ├── uploads/
-│   ├── accept_request.php
-│   ├── chat.php
-│   ├── comment_process.php
-│   ├── follow.php
-│   ├── friend_request.php
-│   ├── friends.php
-│   ├── get_profile_pic.php
-│   ├── index.php
-│   ├── like_process.php
-│   ├── login_process.php
-│   ├── login.php
-│   ├── logout.php
-│   ├── post_process.php
-│   ├── profile.php
-│   ├── register_process.php
-│   ├── register.php
-│   ├── reject_request.php
-│   ├── remove_friend.php
-│   ├── search.php
-│   └── send_request.php
-    
+## 🤝 Contribuciones
+Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
+1. Haz un fork del repositorio
+2. Crea una nueva rama
+3. Realiza tus cambios
+4. Envía un pull request
+
